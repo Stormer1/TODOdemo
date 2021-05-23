@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<litepal>
+    <dbname value="BookStore" ></dbname>
+
+<!--    <dbname value="BookStore" ></dbname>-->
+
+    <version value="21" ></version>
+
+    <list>
+        <mapping class="com.example.activitytest.bean.Book"></mapping>
+        <mapping class="com.example.activitytest.bean.UserInfo1"></mapping>
+    </list>
+</litepal>

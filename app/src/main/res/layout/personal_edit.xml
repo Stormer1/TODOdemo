@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.PersonalEditActivity">
+
+    <TextView
+        android:id="@+id/text_name1"
+        android:layout_width="65dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:text="昵称："
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.271"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_weight="1" />
+
+    <TextView
+        android:text="格言："
+        android:id="@+id/text_motto1"
+        android:layout_width="65dp"
+        android:textSize="20sp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="250dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.271"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_weight="1"
+        />
+
+    <TextView
+        android:id="@+id/text_QQ1"
+        android:text="QQ："
+        android:textSize="20sp"
+        android:layout_width="65dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="300dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.271"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_weight="1"
+        />
+
+    <TextView
+        android:id="@+id/text_Phone1"
+        android:layout_width="65dp"
+        android:text="电话："
+        android:textSize="20sp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="350dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.271"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_weight="1"
+        />
+
+
+    <EditText
+        android:id="@+id/your_name"
+        android:layout_width="197dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="188dp"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.742"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_weight="1" />
+
+    <EditText
+        android:id="@+id/your_motto"
+        android:layout_width="207dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="236dp"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.774"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_weight="1" />
+
+
+    <EditText
+        android:id="@+id/your_QQ"
+        android:layout_width="201dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="284dp"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.757"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_weight="1" />
+
+    <EditText
+        android:id="@+id/your_phone"
+        android:layout_width="201dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="340dp"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.752"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_weight="1" />
+
+    <ImageView
+        android:id="@+id/image_per"
+        android:layout_width="116dp"
+        android:layout_height="90dp"
+        android:layout_marginTop="68dp"
+        android:src="@drawable/resigter"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.538"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_weight="1"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/image_name"
+        android:layout_width="50dp"
+        android:layout_height="26dp"
+        android:layout_marginTop="200dp"
+        android:contentDescription="TODO"
+        android:src="@drawable/name"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.088"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_weight="1"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/image_motto"
+        android:layout_width="50dp"
+        android:layout_height="26dp"
+        android:layout_marginTop="248dp"
+        android:src="@drawable/motto"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.088"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_weight="1"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/image_QQ"
+        android:layout_width="50dp"
+        android:layout_height="26dp"
+        android:layout_marginTop="300dp"
+        android:src="@drawable/qq"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.088"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_weight="1"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/image_phone"
+        android:layout_width="50dp"
+        android:layout_height="26dp"
+        android:layout_marginTop="352dp"
+        android:src="@drawable/phone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.088"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_weight="1"
+        tools:ignore="MissingConstraints" />
+
+
+    <ImageView
+        android:id="@+id/image_edit"
+        android:layout_width="43dp"
+        android:layout_height="31dp"
+        android:src="@drawable/save"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.312"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.704"
+        app:layout_constraintVertical_weight="1"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/button_saveall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title_password"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="200dp"
+        android:text="保存"
+        android:textColor="#fff"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.489"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text_name"
+        app:layout_constraintVertical_bias="0.484"
+        app:layout_constraintVertical_weight="1" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

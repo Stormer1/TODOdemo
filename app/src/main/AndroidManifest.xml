@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.activitytest">
+
+    <application
+        android:name="org.litepal.LitePalApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_todologo"
+        android:label="执笔"
+        android:roundIcon="@mipmap/ic_todologo_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".ui.EditItemActivity"/>
+        <activity android:name=".ui.PersonalActivity" />
+        <activity android:name=".ui.PersonalEditActivity" />
+        <activity android:name=".ui.RegisterActivity" />
+        <activity android:name=".ui.AddTodoActivity" />
+        <activity android:name=".ui.LitePalTodo" />
+        <activity android:name=".ui.TodoActivity" />
+
+        <activity android:name=".ui.LoginActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <service android:name=".LongRunningService"/>
+    </application>
+
+</manifest>
